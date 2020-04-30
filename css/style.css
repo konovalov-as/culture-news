@@ -1,11 +1,144 @@
 .body {
+  width: 1440px;
   font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  color: black;
+  margin: 0 auto;
+}
+
+.container {
+
+}
+
+/* header */
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list-link {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* main */
+.title-h1 {
+  margin: 0;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.intro {
+  max-width: 460px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.title-h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.reviews-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reviews-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
   margin: 0;
 }
 
-.title-h1 {
+.reviews-link {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  text-decoration: none;
+  color: black;
+}
+
+.reviews-box {
+  width: 370px;
+  height: 203px;
+}
+
+.reviews-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.season-tickets-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.season-tickets-item {}
+
+.season-tickets-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
   margin: 0;
 }
-div {
-  font-family: "Playfair Display", serif;
+
+.season-tickets-description {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0;
+}
+
+.season-tickets-watch {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  background: #FF7931;
+  text-decoration: none;
+}
+
+/* footer */
+.social {
+
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
 }
